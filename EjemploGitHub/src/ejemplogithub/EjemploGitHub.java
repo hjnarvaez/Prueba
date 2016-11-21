@@ -8,7 +8,7 @@ public class EjemploGitHub {
 
     }
 
-    private void vector() {
+    public void vector() {
         int A[], i;
         int[] B = {1, 2, 3, 4};
         A = new int[5];
@@ -24,6 +24,7 @@ public class EjemploGitHub {
         int i=0;
         while(i<A1.length){
             System.out.print(A1[i]);
+            i++;
         }
     }
 }
